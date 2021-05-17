@@ -1,0 +1,33 @@
+[
+  {
+    "rolls": 100,
+    "repeat": 1000,
+    "dice_range": [
+      1,
+      7
+    ],
+    "dice_steps": [
+      {
+        "range": [
+          1,
+          3
+        ],
+        "steps": 1
+      },
+      {
+        "range": [
+          3,
+          6
+        ],
+        "steps": 2
+      },
+      {
+        "range": [
+          6,
+          7
+        ],
+        "steps": -3
+      }
+    ]
+  }
+]
